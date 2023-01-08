@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "task": "buy bread",
+      "id": 1
+    },
+    {
+      "task": "loundry",
+      "id": 2
+    },
+    {
+      "task": "loundry",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

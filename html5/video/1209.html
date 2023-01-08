@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5_1209練習</title>
+    <link rel="stylesheet" href="1209.css">
+    
+</head>
+
+<body>
+    <video id="myVideo" height="240" width="320"></video>
+    <br>
+    <button id="playBtn">Play</button>
+    <button id="fullBtn">FullScreen</button>
+    <br>
+    <div>
+        <P>Volume : <span id="VolumeDisplay">?</span>
+            <button id="lowerVolumeBtn"> - </button>
+            <button id="higherVolumeBtn"> + </button>
+        </P>
+        <div>
+            Time : <span id="timeDisplay">? / ?</span><br>
+            <input type="range" id="progressBar" min="0" value="0">
+        </div>
+    </div>
+    <script src="//unpkg.com/jquery"></script>
+    <script src="main.js"></script>
+    <script src="1209.js"></script>
+</body>
+
+</html>
